@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codelabs.diagnosagayabelajarsiswa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiagnosaKerusakanMotorMatik">
+        <activity android:name="com.codelabs.diagnosagayabelajarsiswa.activity.ViewRiwayatActivity" />
+        <activity android:name="com.codelabs.diagnosagayabelajarsiswa.activity.HasilDiagnosaActivity" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.AccuActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.BusiActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.InjektorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.KoplingAktivityActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.VbeltActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.RiwayatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.DiagnosaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.codelabs.diagnosagayabelajarsiswa.activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

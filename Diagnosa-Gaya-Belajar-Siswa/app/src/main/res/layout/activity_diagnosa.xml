@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DiagnosaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="PILIH GEJALA KERUSAKAN"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Menyukai Pelajaran Matematika"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menyukai pelajaran Bahasa Asing"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menyukai Pelajaran Olahraga"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Menggambar"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Membaca"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Berolahraga"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Membaut Diagram"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Benyanyi"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang Bercerita"/>
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagnosa"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
